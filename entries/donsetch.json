@@ -1,0 +1,34 @@
+{
+    "name": "donsetch",
+    "title": "DonSeTch for Pi Pocket",
+    "description": "DonSeTch web fetch, search, crawl, and screenshot tools for Pi Pocket, through the local donsetch MCP binary.",
+    "tags": ["web", "search", "fetch", "crawl", "mcp", "donsetch"],
+    "author": { "name": "Okan Binli", "github": "peyloride" },
+    "version": "1.0.0",
+    "source": {
+        "repo": "peyloride/donsetch-pi-durable",
+        "commit": "376cc7c4864c84c67c2954da704c63acc41f317e",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "donsetch.ts",
+            "sha256": "888720089f68e8605ccc92bd17f1cb6beab56b14d1625b9ee1998cd7b5c326d7",
+            "size": 33260
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.14.0",
+    "declares": {
+        "extensions": ["donsetch"],
+        "tools": ["web_fetch", "web_search", "web_crawl", "web_screenshot"],
+        "readOnlyTools": ["web_fetch", "web_search", "web_crawl", "web_screenshot"],
+        "hooks": [],
+        "sections": [],
+        "wraps": [],
+        "routes": [],
+        "client": null,
+        "access": "owner"
+    },
+    "revoked": []
+}
