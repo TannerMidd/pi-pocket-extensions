@@ -11,7 +11,7 @@
     "version": "1.0.0",
     "source": {
         "repo": "TannerMidd/pi-pocket-theme-blueprint",
-        "commit": "9418e51ab1c9294a14ed00820168d6cc76aaab9f",
+        "commit": "ad9b23d905ae995d7bea14f38793afed7618da50",
         "path": ""
     },
     "files": [
@@ -27,8 +27,8 @@
         },
         {
             "name": "blueprint/layout.css",
-            "sha256": "45861339300d558b806d3149cade91a4d7d4c424e4b7ed20f6d207c8683c9ce5",
-            "size": 14564
+            "sha256": "3c151054cd5f11621aa0a617dea07b3402148c255dc0e173925e2d08f32e9b68",
+            "size": 14563
         },
         {
             "name": "blueprint/colors.toml",
