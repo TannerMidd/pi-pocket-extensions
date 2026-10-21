@@ -8,22 +8,22 @@
         "name": "Tanner Middleton",
         "github": "TannerMidd"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": {
         "repo": "TannerMidd/pi-pocket-theme-blueprint",
-        "commit": "ad9b23d905ae995d7bea14f38793afed7618da50",
+        "commit": "b9100868e2d6df31c2743e82362ce0d4751609f6",
         "path": ""
     },
     "files": [
         {
             "name": "blueprint/theme.json",
-            "sha256": "5ed67ce8f73b09836ca7d7c2b93159ee4dfd7672e3383a7fd7afe2523810528f",
+            "sha256": "50dc75882baf6aa9216c8bae5b4747091ed994caa3ca6cc01cb73f4510729d17",
             "size": 280
         },
         {
             "name": "blueprint/theme.css",
-            "sha256": "29407e1614b6f0efd1146b88b54edcedbf25be3192170feaeaed8e60d39ac6e8",
-            "size": 22
+            "sha256": "bbf7bee8a806eb2516788481c755267afc44bd176ede72228764fe9b5245da60",
+            "size": 504
         },
         {
             "name": "blueprint/layout.css",
