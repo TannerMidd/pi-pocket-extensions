@@ -1,0 +1,46 @@
+{
+    "kind": "theme",
+    "name": "blueprint",
+    "title": "Blueprint",
+    "description": "A drafting table: cyanotype blue on a faint grid, square ink lines, crop-marked cards, and mono labels. Its light half is a whiteprint.",
+    "tags": ["dark", "light", "blue", "grid", "technical", "minimal"],
+    "author": {
+        "name": "Tanner Middleton",
+        "github": "TannerMidd"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "TannerMidd/pi-pocket-theme-blueprint",
+        "commit": "1c5c4b663cb0bb8a0d91b79635a017344fe2cb51",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "blueprint/theme.json",
+            "sha256": "5ed67ce8f73b09836ca7d7c2b93159ee4dfd7672e3383a7fd7afe2523810528f",
+            "size": 280
+        },
+        {
+            "name": "blueprint/theme.css",
+            "sha256": "29407e1614b6f0efd1146b88b54edcedbf25be3192170feaeaed8e60d39ac6e8",
+            "size": 22
+        },
+        {
+            "name": "blueprint/layout.css",
+            "sha256": "3c151054cd5f11621aa0a617dea07b3402148c255dc0e173925e2d08f32e9b68",
+            "size": 14563
+        },
+        {
+            "name": "blueprint/colors.toml",
+            "sha256": "0cc2cffdc859006935d63caf32df01fa69e518e954639054dfe394215a2008d9",
+            "size": 602
+        },
+        {
+            "name": "blueprint/colors-light.toml",
+            "sha256": "34a8d76ac48132505f51409019fbd41af320a1a1ac87bdd9e845af4ac75da660",
+            "size": 521
+        }
+    ],
+    "themeApi": 1,
+    "minPocket": "0.14.0"
+}
