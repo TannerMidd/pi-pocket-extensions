@@ -2,18 +2,25 @@
     "name": "ponytail",
     "title": "Ponytail",
     "description": "Ponytail provides mode guidance, session controls, and conservative verification reminders; it never runs or blocks commands.",
-    "tags": ["coding", "workflow", "verification"],
-    "author": { "name": "Pierre", "github": "piromagnus" },
-    "version": "1.0.1",
+    "tags": [
+        "coding",
+        "workflow",
+        "verification"
+    ],
+    "author": {
+        "name": "Pierre",
+        "github": "piromagnus"
+    },
+    "version": "1.1.0",
     "source": {
         "repo": "piromagnus/pi-pocket-ponytail",
-        "commit": "8618b70e065164ee54be23e7eeab4d0d01989231"
+        "commit": "05506595244fbcf40fb7dc62d8d072a13eaf94ab"
     },
     "files": [
         {
             "name": "ponytail.ts",
-            "sha256": "f89399fabb2a62fd1bdf665fcb842da2ed5092c54e5e347d5aa71515162cbdcc",
-            "size": 7932
+            "sha256": "de2b7847f334cad29c4a272d01f1e9778f02d26169008cb68585a907467b8034",
+            "size": 16904
         },
         {
             "name": "ponytail.js",
@@ -24,15 +31,28 @@
     "pocketApi": 2,
     "minPocket": "0.20.0",
     "declares": {
-        "extensions": ["ponytail"],
-        "tools": ["ponytail_mode"],
+        "extensions": [
+            "ponytail"
+        ],
+        "tools": [
+            "ponytail_mode"
+        ],
         "readOnlyTools": [],
-        "hooks": ["beforeRequest"],
-        "sections": ["ponytail"],
+        "hooks": [
+            "beforeRequest"
+        ],
+        "sections": [
+            "ponytail"
+        ],
         "wraps": [],
-        "routes": ["GET session/:conversation", "PUT session/:conversation"],
+        "routes": [
+            "GET session/:conversation",
+            "PUT session/:conversation"
+        ],
         "client": "steer",
         "access": "steer",
-        "commands": ["conversation ponytail-mode"]
+        "commands": [
+            "conversation ponytail-mode"
+        ]
     }
 }
