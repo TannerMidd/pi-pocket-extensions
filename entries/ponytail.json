@@ -4,21 +4,21 @@
     "description": "Ponytail provides mode guidance, session controls, and conservative verification reminders; it never runs or blocks commands.",
     "tags": ["coding", "workflow", "verification"],
     "author": { "name": "Pierre", "github": "piromagnus" },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": {
         "repo": "piromagnus/pi-pocket-ponytail",
-        "commit": "74afb70fd92a0eda780045d7d1ac6f81c09b7e54"
+        "commit": "8618b70e065164ee54be23e7eeab4d0d01989231"
     },
     "files": [
         {
             "name": "ponytail.ts",
-            "sha256": "834a9fdd1e5989ec45a229afe6eeaa7da559201889f9e31b2572af3d8b9fda91",
-            "size": 7826
+            "sha256": "f89399fabb2a62fd1bdf665fcb842da2ed5092c54e5e347d5aa71515162cbdcc",
+            "size": 7932
         },
         {
             "name": "ponytail.js",
-            "sha256": "f20ceaaf9018ba6133b6616a5543a77e938e52c32788888c56058b93867a6734",
-            "size": 2835
+            "sha256": "eaa66f9f9092fc171fbb074f5237db0a153a481ceaea3619e4624c06859101c7",
+            "size": 4258
         }
     ],
     "pocketApi": 2,
