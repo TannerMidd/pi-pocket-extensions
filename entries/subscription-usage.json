@@ -1,32 +1,32 @@
 {
     "name": "subscription-usage",
     "title": "Subscription usage",
-    "description": "Subscription usage: a page on the rail with how much of your Claude, ChatGPT (Codex), and OpenCode Go plans is used, and when each limit resets. The server asks each service with the sign-ins already on this machine, so no key or token reaches the browser.",
-    "tags": ["usage", "subscriptions", "limits"],
+    "description": "Subscription usage: a page on the rail with how much of your Claude, ChatGPT (Codex), OpenCode Go, Grok, Z.ai, and MiniMax plans is used, and when each limit resets, plus the DeepSeek balance. The server asks each service with the sign-ins already on this machine, and sends each key only to its own service (anthropic.com, opencode.ai, grok.com, z.ai, minimax.io, deepseek.com). No key or token reaches the browser.",
+    "tags": ["usage", "subscriptions", "limits", "grok", "zai", "minimax", "deepseek"],
     "author": {
         "name": "Tanner Middleton",
         "github": "TannerMidd"
     },
-    "version": "1.1.0",
+    "version": "1.2.0",
     "source": {
         "repo": "TannerMidd/pocket-subscription-usage",
-        "commit": "d5b4107aabc6c201918518638ebe68a4e79e5446"
+        "commit": "d350af8b0b96993d1d22cb4747db0e9471ae8836"
     },
     "files": [
         {
             "name": "subscription-usage.ts",
-            "sha256": "a7be4ad7b4d58526560cf9021ae797e0666f94a6812f011e368d47538876782d",
-            "size": 18955
+            "sha256": "23b43305c8fcf0001aca491798205466e2aeae7d0b76175934ae9d16778a2370",
+            "size": 37267
         },
         {
             "name": "subscription-usage/index.js",
-            "sha256": "dfa84e4ff02c418a7c298f563343c3d9a49fa80a48ef8bf7cf2faa29b8bd1969",
-            "size": 15590
+            "sha256": "a752fe4258f8aebfc507351c0ee0f5c082a36c7863efb1652f81545668164298",
+            "size": 18380
         },
         {
             "name": "subscription-usage/look.css",
-            "sha256": "b47db35cc3a0ed45b795aa879523be36a1e0bfd7f6369c4b2a6863bf4b5229c5",
-            "size": 9322
+            "sha256": "c8e80bc2d79dfc35b5b1fe50cea1e07e6b9dbf0e493271ca87382c070c940d25",
+            "size": 10009
         }
     ],
     "pocketApi": 1,
