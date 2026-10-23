@@ -21,7 +21,7 @@ permissions:
 
 env:
     # Use the latest published Pi Pocket release for its entry reader, test helpers, and drop-in dependencies.
-    POCKET_REF: v0.19.0
+    POCKET_REF: v0.20.0
 
 jobs:
     validate:

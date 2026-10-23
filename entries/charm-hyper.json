@@ -1,0 +1,42 @@
+{
+    "name": "charm-hyper",
+    "title": "Charm Hyper",
+    "description": "Charm Hyper: adds Charm's Hyper models to Pi Pocket. It reads the hyper API key from Pi's sign-ins, sends it only to hyper.charm.land, and refreshes the model catalog from Hyper.",
+    "tags": [
+        "hyper",
+        "charm",
+        "models",
+        "provider"
+    ],
+    "author": {
+        "name": "Okan Binli",
+        "github": "peyloride"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "peyloride/pi-pocket-charm-hyper",
+        "commit": "cf63def4f3d824717e70b473f6adf62d77bcc7b7",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "charm-hyper.ts",
+            "sha256": "046ef7d258a510a8affec4ba6b15af74808f75087222c5273a03fa75c3ad8546",
+            "size": 15320
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.20.0",
+    "declares": {
+        "extensions": [],
+        "tools": [],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [],
+        "wraps": [],
+        "routes": [],
+        "client": null,
+        "access": "owner"
+    },
+    "revoked": []
+}
