@@ -7,17 +7,17 @@
         "name": "Tanner Middleton",
         "github": "TannerMidd"
     },
-    "version": "1.0.0",
+    "version": "1.1.0",
     "source": {
         "repo": "TannerMidd/pi-pocket-change-atlas",
-        "commit": "3430694ded674654f0023b32e12b856d15a963a0",
+        "commit": "e96bd9563658f0e86afafc62f857d907b76907fc",
         "path": ""
     },
     "files": [
         {
             "name": "change-atlas.ts",
-            "sha256": "a02a58aa7c309f72892d08127d2409ef973f6b489da6ba2c5fd0c7d79f818bb6",
-            "size": 71444
+            "sha256": "7651b1d38174b1ff99a175345d255ad9882b43a07d34e4b343745341ae96c92b",
+            "size": 86240
         },
         {
             "name": "change-atlas/index.js",
@@ -26,13 +26,13 @@
         },
         {
             "name": "change-atlas/report.css",
-            "sha256": "85591c58c012556cd3780a4e53bd00ce70ad8e27d62863b6d807a1e5c6adb8e5",
-            "size": 27051
+            "sha256": "4bb3c7436506ea6943b61f30fe8e0e03f7fd7ce6aac3cf34eb2d1b9fc0a09817",
+            "size": 28709
         },
         {
             "name": "change-atlas/report.js",
-            "sha256": "e504283f5b1b874df8a999b81368ea2fb1e4d36c6537fa300f0ff6bcf0d993ee",
-            "size": 89125
+            "sha256": "7fa8557ca6ee2377250931bb72ea0d04b1c6a1bde58467744a6ddefeefb55efd",
+            "size": 89145
         }
     ],
     "pocketApi": 2,
@@ -43,11 +43,11 @@
         "readOnlyTools": [],
         "hooks": [],
         "sections": [],
-        "wraps": [],
+        "wraps": ["tool artifact_inline"],
         "routes": [],
         "client": "owner",
         "access": "owner",
-        "commands": []
+        "commands": ["global change-atlas-display"]
     },
     "revoked": []
 }
