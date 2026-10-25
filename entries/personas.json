@@ -1,7 +1,7 @@
 {
     "name": "personas",
     "title": "Pi Pocket Personas",
-    "description": "Pi Pocket Personas: saved system-prompt fragments that the owner chooses for a session, with a page to edit them and a picker in the message box. The chosen persona is appended to Pi's system prompt for that session only.",
+    "description": "Personas are saved system-prompt instructions for Pi Pocket. Choose one for a session — a terse reviewer, a patient teacher, a teammate who follows your house rules — and Pi follows it from the next request. Edit them on a page, pick one from the message box or status line, and set a default for new sessions. A session can have one, or none; the text is added to Pi's system prompt for that session only.",
     "tags": [
         "persona",
         "system-prompt",
