@@ -1,0 +1,56 @@
+{
+    "name": "browser-runs",
+    "title": "Browser runs",
+    "description": "Browser runs: Pi gives the browser one goal and the values it may type, and a run model carries it out a step at a time, without Pi, until it is done or has a reason to stop.",
+    "tags": [
+        "browser",
+        "automation",
+        "jev",
+        "openrouter"
+    ],
+    "author": {
+        "name": "picassio",
+        "github": "picassio"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "picassio/pi-pocket-browser-runs",
+        "commit": "873fa381a35fb219828df61d12dc9c8ba695671b",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "browser-runs.ts",
+            "sha256": "9e474ba3293d76722b8aea94faa50172675c2f6ceaa5bd39ba030f13c41f197d",
+            "size": 44805
+        },
+        {
+            "name": "browser-runs.js",
+            "sha256": "48a53b709ee3513c99003c1037fd82389423bd2f862c1ddc7ad1c26491966f0d",
+            "size": 626
+        }
+    ],
+    "pocketApi": 2,
+    "minPocket": "0.22.0",
+    "declares": {
+        "extensions": [
+            "browser-runs"
+        ],
+        "tools": [
+            "browser_run"
+        ],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [
+            "browser-runs"
+        ],
+        "wraps": [],
+        "routes": [],
+        "client": "owner",
+        "access": "owner",
+        "commands": [
+            "global browser-run-model"
+        ]
+    },
+    "revoked": []
+}
