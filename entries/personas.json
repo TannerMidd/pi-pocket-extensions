@@ -1,0 +1,64 @@
+{
+    "name": "personas",
+    "title": "Pi Pocket Personas",
+    "description": "Pi Pocket Personas: saved system-prompt fragments that the owner chooses for a session, with a page to edit them and a picker in the message box. The chosen persona is appended to Pi's system prompt for that session only.",
+    "tags": [
+        "persona",
+        "system-prompt",
+        "prompt"
+    ],
+    "author": {
+        "name": "Edison Chong",
+        "github": "edisoncks"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "edisoncks/pi-pocket-personas",
+        "commit": "1a3d6e67e9c206a40ac5b80726eda140a2aa61fc",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "personas.ts",
+            "sha256": "6a591ea35b49200f539f7ac757dd031d9f18050db24311827fa3d1ad30a220a8",
+            "size": 15180
+        },
+        {
+            "name": "personas/index.js",
+            "sha256": "2e8c9a077d2c5d78a8e5584f8e3e14f81250df8f590b573a4dad6da2a5524313",
+            "size": 26309
+        },
+        {
+            "name": "personas/style.css",
+            "sha256": "d54aadb1aeb792d5cee378be0d62c709037c2284ceddf16a7c63a4ef1b71dafb",
+            "size": 4879
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.20.0",
+    "declares": {
+        "extensions": [
+            "personas"
+        ],
+        "tools": [],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [
+            "persona"
+        ],
+        "wraps": [],
+        "routes": [
+            "GET state/:session",
+            "GET catalog",
+            "POST default",
+            "POST personas",
+            "DELETE personas/:id",
+            "PUT active/:session"
+        ],
+        "client": "owner",
+        "access": "owner",
+        "commands": [
+            "global persona-use"
+        ]
+    }
+}
