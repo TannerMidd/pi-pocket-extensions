@@ -1,0 +1,90 @@
+{
+ "name": "voice-message",
+ "title": "Voice message",
+ "description": "Dictate a message: words appear while you speak and a full pass corrects them when you stop; nothing is sent automatically and your edits are never overwritten. Mistral engines send audio to api.mistral.ai (Voxtral Realtime 3, then Mini Transcribe 3; key only on the server from MISTRAL_API_KEY or Pi's mistral auth.json entry). Local Whisper keeps audio on the server; its first use installs pinned packages from PyPI with enforced hashes and the revision-pinned Whisper small model from huggingface.co, ~900 MB. Engine and language (auto by default) are chosen on the Audio settings page.",
+ "tags": [
+  "voice",
+  "dictation",
+  "whisper",
+  "transcription",
+  "mistral"
+ ],
+ "author": {
+  "name": "piromagnus",
+  "github": "piromagnus"
+ },
+ "version": "1.4.0",
+ "source": {
+  "repo": "piromagnus/pi-pocket-voice-message",
+  "commit": "617f70d17902d902e3bc3a2b0ee413a1585b959c",
+  "path": ""
+ },
+ "files": [
+  {
+   "name": "voice-message.ts",
+   "sha256": "159d5cd0ebea24174a427f159b18c014e6a776cb28e2dbab80b8a1ba02e17829",
+   "size": 40246
+  },
+  {
+   "name": "voice-message/index.js",
+   "sha256": "478e3d1160c212dd0da335389350760d77d5cfc8237781c7e0266891c84f12bc",
+   "size": 19383
+  },
+  {
+   "name": "voice-message/draft.js",
+   "sha256": "09363d6a063df2a088e21a29ed369d72410d54072e6daa989a2b4dcdb1ef435d",
+   "size": 4119
+  },
+  {
+   "name": "voice-message/live.js",
+   "sha256": "0e6a56fe80c9b2f739f705389f3d2b8a9113ea99c264973929bd058175cb222b",
+   "size": 7755
+  },
+  {
+   "name": "voice-message/pcm-worklet.js",
+   "sha256": "3e317192162aa184704a2570db2300be3ac394d6233341a39b687199477d2cff",
+   "size": 2024
+  },
+  {
+   "name": "voice-message/style.css",
+   "sha256": "e81c95b55629efc01731c9770df3d431ea5d167384489f93d0c4a6707ac25e95",
+   "size": 275
+  },
+  {
+   "name": "voice-message/transcribe.py",
+   "sha256": "21702ca482f16a90175a103d975a50348422b4fa83d395b5e34c141bedacf82a",
+   "size": 3898
+  },
+  {
+   "name": "voice-message/requirements.lock",
+   "sha256": "5c72d68ce61e069ad9ff258e7452ec1e280c211aa8336964bdb7a0cd05ceab41",
+   "size": 27179
+  },
+  {
+   "name": "voice-message/requirements.in",
+   "sha256": "7ae77ecafc5a114aa9664833a79f8749050c45d6eb3318e8b8c5da8600936ec3",
+   "size": 33
+  }
+ ],
+ "pocketApi": 1,
+ "minPocket": "0.19.0",
+ "declares": {
+  "extensions": [],
+  "tools": [],
+  "readOnlyTools": [],
+  "hooks": [],
+  "sections": [],
+  "wraps": [],
+  "routes": [
+   "POST transcribe",
+   "POST live/start",
+   "POST live/audio",
+   "POST live/end",
+   "POST live/cancel"
+  ],
+  "client": "owner",
+  "access": "owner",
+  "commands": []
+ },
+ "revoked": []
+}
