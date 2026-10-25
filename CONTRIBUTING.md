@@ -66,7 +66,7 @@ A maintainer reads all the code at the pinned commit before a merge. The maintai
 - The code does only what the description says.
 - The code does not send data to other places, unless the description says so and the owner can control it.
 - The code reads secrets or other sessions only when its description says why it must.
-- The code does not download and run more code.
+- The code does not download and run code that the commit does not pin. It can install what it needs (packages, a runtime, or a model) only when a lock file in the entry pins each package by version and hash and the installer enforces the hashes, the description names what it installs and from where, and it installs only after the owner acts, never while it loads ([G14](https://github.com/TannerMidd/pi-pocket/blob/main/docs/extensions/policies/gallery-review.md#what-gets-refused)).
 - The tool names and descriptions are clear, and `readOnlyHint` is true only for tools that change nothing.
 - The code follows the rules in [Writing extensions](https://github.com/TannerMidd/pi-pocket/blob/main/docs/extensions.md#rules-that-are-easy-to-break).
 
