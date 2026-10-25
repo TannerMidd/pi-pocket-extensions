@@ -1,0 +1,57 @@
+{
+    "name": "browser-sign-in",
+    "title": "Browser sign-in",
+    "description": "Browser sign-in: when Pi's browser is at a sign-in, the person types the username and password, or a one-time code, on a card in the chat, and the values go straight into the page. Pi never sees them, and neither does the transcript. For a CAPTCHA or a sign-in to approve on a phone, Pi asks the person to do it in the Browser panel and tap Done.",
+    "tags": [
+        "browser",
+        "sign-in",
+        "passwords",
+        "security"
+    ],
+    "author": {
+        "name": "picassio",
+        "github": "picassio"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "picassio/pi-pocket-browser-sign-in",
+        "commit": "81ae21ed5a7160e1df2ab5e7929f9ca7e0ef9165",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "browser-sign-in.ts",
+            "sha256": "90bfbc5a2996e78fa9636a89f2b4de7e3de1933e0ca04f9913d97c419a496217",
+            "size": 16755
+        },
+        {
+            "name": "browser-sign-in.js",
+            "sha256": "9db35b6e659efb4b8a1a8e1c5bcd95883acdc8e3a773ef3a8b06a5c7a681fc86",
+            "size": 1149
+        }
+    ],
+    "pocketApi": 2,
+    "minPocket": "0.22.0",
+    "declares": {
+        "extensions": [
+            "browser-sign-in"
+        ],
+        "tools": [
+            "browser_sign_in",
+            "browser_ask_code",
+            "browser_ask_person"
+        ],
+        "readOnlyTools": [],
+        "hooks": [
+            "beforeTool"
+        ],
+        "sections": [
+            "browser_sign_in"
+        ],
+        "wraps": [],
+        "routes": [],
+        "client": "owner",
+        "access": "owner"
+    },
+    "revoked": []
+}
