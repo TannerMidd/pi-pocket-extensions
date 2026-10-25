@@ -11,27 +11,27 @@
         "name": "Edison Chong",
         "github": "edisoncks"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": {
         "repo": "edisoncks/pi-pocket-personas",
-        "commit": "1a3d6e67e9c206a40ac5b80726eda140a2aa61fc",
+        "commit": "69d51ed4fc47d6c3d98bcf3e6c0230cacc87f9fc",
         "path": ""
     },
     "files": [
         {
             "name": "personas.ts",
-            "sha256": "6a591ea35b49200f539f7ac757dd031d9f18050db24311827fa3d1ad30a220a8",
-            "size": 15180
+            "sha256": "ff594713e612a4984d2ae0c7c524735115cbb28577a1d6610681eda898238cf6",
+            "size": 15367
         },
         {
             "name": "personas/index.js",
-            "sha256": "2e8c9a077d2c5d78a8e5584f8e3e14f81250df8f590b573a4dad6da2a5524313",
-            "size": 26309
+            "sha256": "6152f8d3f9aba5f2113a1477e7ea7de93881424aff707e26774261c04e991c75",
+            "size": 26985
         },
         {
             "name": "personas/style.css",
-            "sha256": "d54aadb1aeb792d5cee378be0d62c709037c2284ceddf16a7c63a4ef1b71dafb",
-            "size": 4879
+            "sha256": "7213d7684c7699d8c2f407745bf6fc9464741f1b9ae6319cf33b32a4f1ff20e2",
+            "size": 5003
         }
     ],
     "pocketApi": 1,
