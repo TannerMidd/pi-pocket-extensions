@@ -1,7 +1,7 @@
 {
   "name": "usage-analyser",
   "title": "Usage analyser (experimental)",
-  "description": "Usage analyser (experimental): tokens, cost, cache use and time of every session, with findings that say how to spend less. The findings are first guesses, and ideas for other ways to analyse usage are welcome. It reads the model requests in Pi Pocket's own store (counts, timings, tool names; never message text) through a helper script that keeps an incremental cache, and shows the report on a page, with a button that sends the findings to PiP for a deeper analysis. Owner only. No network.",
+  "description": "Usage analyser (experimental): token, cost, cache and time findings; ideas for other analyses are welcome. An owner-only page runs a child process that reads Pi Pocket records, never keeps or shows message text, and stores a cache in <data>/usage-analyser/. Ask PiP sends findings to PiP. sessions() is experimental; /pip.js and the pocket.sqlite record shapes are internal and can change in any release. The analyser makes no network requests; PiP may send findings to its model provider.",
   "tags": [
     "usage",
     "cost",
@@ -14,22 +14,22 @@
     "name": "Pierre Marrec",
     "github": "piromagnus"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "source": {
     "repo": "piromagnus/pi-pocket-usage-analyser",
-    "commit": "929cb8fe8226966481c2c034545863634dae4c0f",
+    "commit": "b5dbaed9d62664d0cfbdc9ca3c6e363919ff1a80",
     "path": ""
   },
   "files": [
     {
       "name": "usage-analyser.ts",
-      "sha256": "f2369872837329843e76a85b7f7a63289e040374b8270019d0b8d1e51731a8c3",
-      "size": 2635
+      "sha256": "3df16452ebbc739a66f01d718ff2248a31ae3a883182706c83edd5b77d0cd66d",
+      "size": 3015
     },
     {
       "name": "usage-analyser/index.js",
-      "sha256": "fdb3144e25d337b0e4782ba9c32428e356e678c1b557744f5f542112e362da09",
-      "size": 10625
+      "sha256": "2e38e91002a6240a42e7ab43b70cf863dd66845f049e151a241d4fc4362a090c",
+      "size": 10801
     },
     {
       "name": "usage-analyser/style.css",
