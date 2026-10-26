@@ -1,27 +1,27 @@
 {
     "name": "subscription-usage",
     "title": "Subscription usage",
-    "description": "Subscription usage: a page on the rail with how much of your Claude, ChatGPT (Codex), OpenCode Go, Grok, Z.ai, and MiniMax plans is used, and when each limit resets, plus the DeepSeek balance, and a /usage-plans command that posts the same usage as a card in chat. The server asks each service with the sign-ins already on this machine, and sends each key only to its own service (anthropic.com, opencode.ai, grok.com, z.ai, minimax.io, deepseek.com). No key or token reaches the browser.",
+    "description": "Subscription usage: a page on the rail with how much of your Claude, ChatGPT (Codex), OpenCode Go, Grok, Z.ai, and MiniMax plans is used, and when each limit resets, plus the DeepSeek balance, a status line item with the quota of the open session's model provider, and a /usage-plans command that posts the same usage as a card in chat. The server asks each service with the sign-ins already on this machine, and sends each key only to its own service (anthropic.com, opencode.ai, grok.com, z.ai, minimax.io, deepseek.com). No key or token reaches the browser.",
     "tags": ["usage", "subscriptions", "limits", "grok", "zai", "minimax", "deepseek"],
     "author": {
         "name": "Tanner Middleton",
         "github": "TannerMidd"
     },
-    "version": "1.3.0",
+    "version": "1.4.0",
     "source": {
         "repo": "TannerMidd/pocket-subscription-usage",
-        "commit": "9ec724ae2a5ac6ad67e2401e91aa126e097b9574"
+        "commit": "3c4501413acf682b07dfd6d8a6f4103828e18e31"
     },
     "files": [
         {
             "name": "subscription-usage.ts",
-            "sha256": "dd0da4f4b0478c126e2267606e137989350aee41b4d4acdbef1a3a5156a88e97",
-            "size": 43960
+            "sha256": "92c6272e9f500bf19995a16c57973e0029f232758c7ac820aa84bdab7d643479",
+            "size": 46679
         },
         {
             "name": "subscription-usage/index.js",
-            "sha256": "a752fe4258f8aebfc507351c0ee0f5c082a36c7863efb1652f81545668164298",
-            "size": 18380
+            "sha256": "2c5366b90928806792998ee3274636a95bb08b9c87848bb72b0481169ae3b407",
+            "size": 25390
         },
         {
             "name": "subscription-usage/look.css",
@@ -38,7 +38,7 @@
         "hooks": [],
         "sections": [],
         "wraps": [],
-        "routes": ["GET usage"],
+        "routes": ["GET quota/:source", "GET usage"],
         "client": "owner",
         "access": "owner",
         "commands": ["global usage-plans"]
