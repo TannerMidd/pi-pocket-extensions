@@ -1,7 +1,7 @@
 {
     "name": "browser-runs",
     "title": "Browser runs",
-    "description": "Browser runs: Pi gives the browser one goal and the values it may type, and a run model carries it out a step at a time, without Pi, until it is done or has a reason to stop.",
+    "description": "Browser runs: Pi gives the browser one goal and the values it may type, and a run model carries it out a step at a time, without Pi: it clicks and types without asking, on the session's page, which may be signed in, so a hostile page can steer it. The run model is the owner's choice: the session's own model, or Jev on OpenRouter (openrouter.ai), which then gets each step's goal, supplied values, page address, title and text (up to 4,000 characters), controls in view with their values, and recent actions, with the owner's OpenRouter key.",
     "tags": [
         "browser",
         "automation",
@@ -12,17 +12,17 @@
         "name": "picassio",
         "github": "picassio"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": {
         "repo": "picassio/pi-pocket-browser-runs",
-        "commit": "873fa381a35fb219828df61d12dc9c8ba695671b",
+        "commit": "ee9fcdfa23403b025705ed9236041a4e40e811e6",
         "path": ""
     },
     "files": [
         {
             "name": "browser-runs.ts",
-            "sha256": "9e474ba3293d76722b8aea94faa50172675c2f6ceaa5bd39ba030f13c41f197d",
-            "size": 44805
+            "sha256": "21821d35a11d717a859fd368ae4d016b33b2d431ae0225fa474b906c5fc77551",
+            "size": 45768
         },
         {
             "name": "browser-runs.js",
