@@ -10,10 +10,10 @@
   "mistral"
  ],
  "author": {
-  "name": "piromagnus",
+  "name": "Pierre Marrec",
   "github": "piromagnus"
  },
- "version": "1.4.0",
+ "version": "1.4.1",
  "source": {
   "repo": "piromagnus/pi-pocket-voice-message",
   "commit": "617f70d17902d902e3bc3a2b0ee413a1585b959c",
@@ -59,11 +59,6 @@
    "name": "voice-message/requirements.lock",
    "sha256": "5c72d68ce61e069ad9ff258e7452ec1e280c211aa8336964bdb7a0cd05ceab41",
    "size": 27179
-  },
-  {
-   "name": "voice-message/requirements.in",
-   "sha256": "7ae77ecafc5a114aa9664833a79f8749050c45d6eb3318e8b8c5da8600936ec3",
-   "size": 33
   }
  ],
  "pocketApi": 1,
