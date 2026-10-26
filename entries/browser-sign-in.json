@@ -12,17 +12,17 @@
         "name": "picassio",
         "github": "picassio"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": {
         "repo": "picassio/pi-pocket-browser-sign-in",
-        "commit": "81ae21ed5a7160e1df2ab5e7929f9ca7e0ef9165",
+        "commit": "82b838badc897b9ee13443aeca59881e943d706b",
         "path": ""
     },
     "files": [
         {
             "name": "browser-sign-in.ts",
-            "sha256": "90bfbc5a2996e78fa9636a89f2b4de7e3de1933e0ca04f9913d97c419a496217",
-            "size": 16755
+            "sha256": "11147dea9d4802930a2112aca2cadf1d4d67b7f62891074149da901711a0dd06",
+            "size": 17362
         },
         {
             "name": "browser-sign-in.js",
