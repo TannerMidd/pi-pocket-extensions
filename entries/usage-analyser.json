@@ -1,0 +1,62 @@
+{
+  "name": "usage-analyser",
+  "title": "Usage analyser (experimental)",
+  "description": "Usage analyser (experimental): tokens, cost, cache use and time of every session, with findings that say how to spend less. The findings are first guesses, and ideas for other ways to analyse usage are welcome. It reads the model requests in Pi Pocket's own store (counts, timings, tool names; never message text) through a helper script that keeps an incremental cache, and shows the report on a page, with a button that sends the findings to PiP for a deeper analysis. Owner only. No network.",
+  "tags": [
+    "usage",
+    "cost",
+    "cache",
+    "tokens",
+    "analysis",
+    "experimental"
+  ],
+  "author": {
+    "name": "Pierre Marrec",
+    "github": "piromagnus"
+  },
+  "version": "0.1.0",
+  "source": {
+    "repo": "piromagnus/pi-pocket-usage-analyser",
+    "commit": "929cb8fe8226966481c2c034545863634dae4c0f",
+    "path": ""
+  },
+  "files": [
+    {
+      "name": "usage-analyser.ts",
+      "sha256": "f2369872837329843e76a85b7f7a63289e040374b8270019d0b8d1e51731a8c3",
+      "size": 2635
+    },
+    {
+      "name": "usage-analyser/index.js",
+      "sha256": "fdb3144e25d337b0e4782ba9c32428e356e678c1b557744f5f542112e362da09",
+      "size": 10625
+    },
+    {
+      "name": "usage-analyser/style.css",
+      "sha256": "ded1b5410f735ae55e1e29bfc9ce282413b7a1e6d7683b38a398a819010c2560",
+      "size": 2657
+    },
+    {
+      "name": "usage-analyser/analyse.mjs",
+      "sha256": "32196697f1fd20d96b95c267557e1d5aa9858d41e4698a3e9e3f5113ba1e2ae6",
+      "size": 20038
+    }
+  ],
+  "pocketApi": 1,
+  "minPocket": "0.20.0",
+  "declares": {
+    "extensions": [],
+    "tools": [],
+    "readOnlyTools": [],
+    "hooks": [],
+    "sections": [],
+    "wraps": [],
+    "routes": [
+      "GET report"
+    ],
+    "client": "owner",
+    "access": "owner",
+    "commands": []
+  },
+  "revoked": []
+}
