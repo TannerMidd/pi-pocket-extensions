@@ -17,14 +17,14 @@
   "version": "0.1.1",
   "source": {
     "repo": "piromagnus/pi-pocket-usage-analyser",
-    "commit": "b5dbaed9d62664d0cfbdc9ca3c6e363919ff1a80",
+    "commit": "004c12d582e498931ba4710e3aff4ef65372f062",
     "path": ""
   },
   "files": [
     {
       "name": "usage-analyser.ts",
-      "sha256": "3df16452ebbc739a66f01d718ff2248a31ae3a883182706c83edd5b77d0cd66d",
-      "size": 3015
+      "sha256": "6b370dd83d0d0dd08f3596cd0934c0d0e5f5c3ddbf83d38b8b321c2bc728fa73",
+      "size": 3091
     },
     {
       "name": "usage-analyser/index.js",
