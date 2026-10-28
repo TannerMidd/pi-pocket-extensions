@@ -12,17 +12,17 @@
         "name": "picassio",
         "github": "picassio"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "source": {
         "repo": "picassio/pi-pocket-browser-runs",
-        "commit": "ee9fcdfa23403b025705ed9236041a4e40e811e6",
+        "commit": "8a34613a8ebf84079a960477208708662fb23b82",
         "path": ""
     },
     "files": [
         {
             "name": "browser-runs.ts",
-            "sha256": "21821d35a11d717a859fd368ae4d016b33b2d431ae0225fa474b906c5fc77551",
-            "size": 45768
+            "sha256": "128454b1c21948184e36504b59567325bb192684c061f98ab02bfd8a6e95e75b",
+            "size": 45926
         },
         {
             "name": "browser-runs.js",
