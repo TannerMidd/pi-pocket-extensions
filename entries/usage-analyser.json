@@ -1,0 +1,62 @@
+{
+  "name": "usage-analyser",
+  "title": "Usage analyser (experimental)",
+  "description": "Usage analyser (experimental): token, cost, cache and time findings; ideas for other analyses are welcome. An owner-only page runs a child process that reads Pi Pocket records, never keeps or shows message text, and stores a cache in <data>/usage-analyser/. Ask PiP sends findings to PiP. sessions() is experimental; /pip.js and the pocket.sqlite record shapes are internal and can change in any release. The analyser makes no network requests; PiP may send findings to its model provider.",
+  "tags": [
+    "usage",
+    "cost",
+    "cache",
+    "tokens",
+    "analysis",
+    "experimental"
+  ],
+  "author": {
+    "name": "Pierre Marrec",
+    "github": "piromagnus"
+  },
+  "version": "0.1.1",
+  "source": {
+    "repo": "piromagnus/pi-pocket-usage-analyser",
+    "commit": "004c12d582e498931ba4710e3aff4ef65372f062",
+    "path": ""
+  },
+  "files": [
+    {
+      "name": "usage-analyser.ts",
+      "sha256": "6b370dd83d0d0dd08f3596cd0934c0d0e5f5c3ddbf83d38b8b321c2bc728fa73",
+      "size": 3091
+    },
+    {
+      "name": "usage-analyser/index.js",
+      "sha256": "2e38e91002a6240a42e7ab43b70cf863dd66845f049e151a241d4fc4362a090c",
+      "size": 10801
+    },
+    {
+      "name": "usage-analyser/style.css",
+      "sha256": "ded1b5410f735ae55e1e29bfc9ce282413b7a1e6d7683b38a398a819010c2560",
+      "size": 2657
+    },
+    {
+      "name": "usage-analyser/analyse.mjs",
+      "sha256": "32196697f1fd20d96b95c267557e1d5aa9858d41e4698a3e9e3f5113ba1e2ae6",
+      "size": 20038
+    }
+  ],
+  "pocketApi": 1,
+  "minPocket": "0.20.0",
+  "declares": {
+    "extensions": [],
+    "tools": [],
+    "readOnlyTools": [],
+    "hooks": [],
+    "sections": [],
+    "wraps": [],
+    "routes": [
+      "GET report"
+    ],
+    "client": "owner",
+    "access": "owner",
+    "commands": []
+  },
+  "revoked": []
+}
