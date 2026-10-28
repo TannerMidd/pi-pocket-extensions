@@ -1,0 +1,61 @@
+{
+    "kind": "theme",
+    "name": "claude-code",
+    "title": "Claude Code",
+    "description": "Claude's desktop app: serif replies, your messages as bubbles on the right, a flat sidebar, a rounded reply box, and a clay spark.",
+    "tags": ["dark", "light", "serif", "claude", "minimal", "app"],
+    "author": {
+        "name": "Tanner Middleton",
+        "github": "TannerMidd"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "TannerMidd/pi-pocket-theme-claude-code",
+        "commit": "63e74f97879cd290e3dc72ffe1560177e4b58a6c",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "claude-code/theme.json",
+            "sha256": "a4a2d2a4f1b9f85d0800ee59c3c4d0dc1c054738c6df3a00f6b8638db82fedca",
+            "size": 277
+        },
+        {
+            "name": "claude-code/colors.toml",
+            "sha256": "e3f8dd8445b27689588f1afc2c095ac91a001eb73c4f323c755990cf35dd0084",
+            "size": 513
+        },
+        {
+            "name": "claude-code/colors-light.toml",
+            "sha256": "468aeec08f564915101aaef1424f40072c8367a5929c65538aad22f0aed3fcd1",
+            "size": 491
+        },
+        {
+            "name": "claude-code/theme.css",
+            "sha256": "345903003b472a84b0e7cd0e2851744cb3a6fb8caad749c932d333938fe79ab9",
+            "size": 290
+        },
+        {
+            "name": "claude-code/fonts/OFL.css",
+            "sha256": "7bb2da96c1702be127e41975e00fb4c0ebb5dbf65998e1376ca69161977b143d",
+            "size": 4928
+        },
+        {
+            "name": "claude-code/layout.css",
+            "sha256": "d196d407b3fc271a43275895a2af25d3db59968a93a71c930ec503682523f41a",
+            "size": 15031
+        },
+        {
+            "name": "claude-code/fonts/SourceSerif4-Roman.woff2",
+            "sha256": "940a76eda1388de39d38c8e7a79bf6ea058a387faee0a9f33c8d25c6ba05e1be",
+            "size": 429100
+        },
+        {
+            "name": "claude-code/fonts/SourceSerif4-Italic.woff2",
+            "sha256": "9d28b5749a1ad096a295cb607c521bd1af4cd9979b6f37332daf70143149fb44",
+            "size": 346688
+        }
+    ],
+    "themeApi": 1,
+    "minPocket": "0.20.0"
+}
