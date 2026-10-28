@@ -666,6 +666,57 @@
             "revoked": []
         },
         {
+            "name": "keenable",
+            "title": "Keenable web search",
+            "description": "Keenable web search for Pi: keenable_search finds web pages, and keenable_fetch reads a public page as markdown. Each call sends the query, or the page's address, to api.keenable.ai with the header X-Keenable-Title: Pi Pocket. It needs no key. An optional Keenable API key in the module's settings raises the rate limits; it stays on the server and goes only to api.keenable.ai. Results are fenced as data from the web. The module reads no other files, settings, or secrets.",
+            "tags": [
+                "web",
+                "search",
+                "fetch",
+                "markdown",
+                "keenable"
+            ],
+            "author": {
+                "name": "Keenable",
+                "github": "ilya-bogin-keenable"
+            },
+            "version": "1.0.0",
+            "source": {
+                "repo": "keenableai/pi-pocket-keenable",
+                "commit": "1a60bef226c09a79feff203dbefe964136a3c0c2",
+                "path": ""
+            },
+            "files": [
+                {
+                    "name": "keenable.ts",
+                    "sha256": "5ef222e6ce960d1cf1e670f88bf78b49caecbca765c7558e29bc7c9f1d346953",
+                    "size": 12286
+                }
+            ],
+            "pocketApi": 2,
+            "minPocket": "0.22.0",
+            "declares": {
+                "extensions": [
+                    "keenable"
+                ],
+                "tools": [
+                    "keenable_search",
+                    "keenable_fetch"
+                ],
+                "readOnlyTools": [
+                    "keenable_search",
+                    "keenable_fetch"
+                ],
+                "hooks": [],
+                "sections": [],
+                "wraps": [],
+                "routes": [],
+                "client": null,
+                "access": "owner"
+            },
+            "revoked": []
+        },
+        {
             "name": "mcp",
             "title": "MCP servers",
             "description": "MCP servers for Pi: Pi Pocket connects to the stdio and HTTP servers in Pi's own mcp.json, and Pi finds and calls their tools with mcp_tools, mcp_call, and mcp_call_read_only. Each server is a program that runs with the owner's rights, and Lancet Guard does not check the calls of its tools. A server runs only after the owner turns it on in the MCP page, and again after each change to its entry. The module reads ~/.pi/agent/mcp.json and the variables and commands that its entries name, and keeps its settings and OAuth tokens in ~/.pi-pocket/mcp/.",
