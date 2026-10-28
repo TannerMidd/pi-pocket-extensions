@@ -251,6 +251,62 @@
             "minPocket": "0.14.0"
         },
         {
+            "name": "browser-runs",
+            "title": "Browser runs",
+            "description": "Browser runs: Pi gives the browser one goal and the values it may type, and a run model carries it out a step at a time, without Pi: it clicks and types without asking, on the session's page, which may be signed in, so a hostile page can steer it. The run model is the owner's choice: the session's own model, or Jev on OpenRouter (openrouter.ai), which then gets each step's goal, supplied values, page address, title and text (up to 4,000 characters), controls in view with their values, and recent actions, with the owner's OpenRouter key.",
+            "tags": [
+                "browser",
+                "automation",
+                "jev",
+                "openrouter"
+            ],
+            "author": {
+                "name": "picassio",
+                "github": "picassio"
+            },
+            "version": "1.0.2",
+            "source": {
+                "repo": "picassio/pi-pocket-browser-runs",
+                "commit": "8a34613a8ebf84079a960477208708662fb23b82",
+                "path": ""
+            },
+            "files": [
+                {
+                    "name": "browser-runs.ts",
+                    "sha256": "128454b1c21948184e36504b59567325bb192684c061f98ab02bfd8a6e95e75b",
+                    "size": 45926
+                },
+                {
+                    "name": "browser-runs.js",
+                    "sha256": "48a53b709ee3513c99003c1037fd82389423bd2f862c1ddc7ad1c26491966f0d",
+                    "size": 626
+                }
+            ],
+            "pocketApi": 2,
+            "minPocket": "0.22.0",
+            "declares": {
+                "extensions": [
+                    "browser-runs"
+                ],
+                "tools": [
+                    "browser_run"
+                ],
+                "readOnlyTools": [],
+                "hooks": [],
+                "sections": [
+                    "browser-runs"
+                ],
+                "wraps": [],
+                "routes": [],
+                "client": "owner",
+                "access": "owner",
+                "commands": [
+                    "global browser-run-model"
+                ]
+            },
+            "revoked": []
+        },
+        {
             "name": "browser-sign-in",
             "title": "Browser sign-in",
             "description": "Browser sign-in: when Pi's browser is at a sign-in, the person types the username and password, or a one-time code, on a card in the chat, and the values go straight into the page. Pi never sees them, and neither does the transcript. For a CAPTCHA or a sign-in to approve on a phone, Pi asks the person to do it in the Browser panel and tap Done.",
