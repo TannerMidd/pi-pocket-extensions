@@ -2,23 +2,23 @@
     "kind": "theme",
     "name": "claude-code",
     "title": "Claude Code",
-    "description": "Claude's desktop app: serif replies, your messages as bubbles on the right, a flat sidebar, a rounded reply box, and a clay spark.",
+    "description": "Claude's desktop app: serif replies, your messages as bubbles on the right, a flat sidebar, and a rounded reply box. Pi keeps its own π.",
     "tags": ["dark", "light", "serif", "claude", "minimal", "app"],
     "author": {
         "name": "Tanner Middleton",
         "github": "TannerMidd"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": {
         "repo": "TannerMidd/pi-pocket-theme-claude-code",
-        "commit": "63e74f97879cd290e3dc72ffe1560177e4b58a6c",
+        "commit": "85fae08d320e46cf5ffaae884468410d5a2508d8",
         "path": ""
     },
     "files": [
         {
             "name": "claude-code/theme.json",
-            "sha256": "a4a2d2a4f1b9f85d0800ee59c3c4d0dc1c054738c6df3a00f6b8638db82fedca",
-            "size": 277
+            "sha256": "8ae644ae2d59449c0290b26855fc1c820c605686dc9ad67ca906a801ec7c0647",
+            "size": 284
         },
         {
             "name": "claude-code/colors.toml",
@@ -27,8 +27,8 @@
         },
         {
             "name": "claude-code/colors-light.toml",
-            "sha256": "468aeec08f564915101aaef1424f40072c8367a5929c65538aad22f0aed3fcd1",
-            "size": 491
+            "sha256": "83276343e9ddf4c5843cb3aed96c28234d551307afe124c2c419ca2d8463667f",
+            "size": 507
         },
         {
             "name": "claude-code/theme.css",
@@ -42,8 +42,8 @@
         },
         {
             "name": "claude-code/layout.css",
-            "sha256": "d196d407b3fc271a43275895a2af25d3db59968a93a71c930ec503682523f41a",
-            "size": 15031
+            "sha256": "c4c455bc7ce00b4dbc601349ba724bf1ac6ed14cf53a0d32ea67a58263632597",
+            "size": 13780
         },
         {
             "name": "claude-code/fonts/SourceSerif4-Roman.woff2",
