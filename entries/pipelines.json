@@ -16,19 +16,19 @@
   "version": "0.1.0",
   "source": {
     "repo": "stilllostinla/pi-pocket-pipelines",
-    "commit": "e2c581342a2ce49b18d4627229efcb9f66c741cb",
+    "commit": "3c7b38c7026e326dcef25962f07254657e4a4cd1",
     "path": ""
   },
   "files": [
     {
       "name": "pipelines.ts",
-      "sha256": "0407937d30a63975e45a401aa9cabb3e9d3107254ea476941fd0953a79579f5d",
-      "size": 82599
+      "sha256": "b2b32e839e8ec704d488d56228504c45d3c9e2319cd2281606b49d26056dcdb6",
+      "size": 108981
     },
     {
       "name": "pipelines/index.js",
-      "sha256": "e0522df4d9846cd42fe41f36821632b2d1a6492b2f01371450f279de940acf89",
-      "size": 40146
+      "sha256": "a356da862211352fcf7aade4f74cdef0f0e61e5f7130532249fce45aac6fb345",
+      "size": 47579
     },
     {
       "name": "pipelines/style.css",
