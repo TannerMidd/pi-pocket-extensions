@@ -730,17 +730,17 @@
                 "name": "Tanner Middleton",
                 "github": "TannerMidd"
             },
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "repo": "TannerMidd/pocket-mcp",
-                "commit": "1c532c636e097efe45a48c5cf352ae9c20dc846c",
+                "commit": "4f3c5ebb5cb855ff25e241a806ee601f949d1fb7",
                 "path": ""
             },
             "files": [
                 {
                     "name": "mcp.ts",
-                    "sha256": "1120a07b0a2b207029187c222604960e359837a3c181a44d24154e3f2d5c694d",
-                    "size": 33887
+                    "sha256": "e605bd2bb5f209f0eb6789db22cb36323f1213abb9f1daed03239f5a32bdfab3",
+                    "size": 35483
                 },
                 {
                     "name": "mcp/config.ts",
@@ -759,8 +759,8 @@
                 },
                 {
                     "name": "mcp/oauth.ts",
-                    "sha256": "772208a0fd54689b64f54c7f770c552b3dd9c2a0b7a679a4ff7a048bac8dbb7b",
-                    "size": 20180
+                    "sha256": "580ad23be35b5b8df98045c3bca2784eccab5e7706ae4b80ea187b0fca26a60c",
+                    "size": 20953
                 },
                 {
                     "name": "mcp/style.css",
