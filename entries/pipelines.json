@@ -1,0 +1,70 @@
+{
+  "name": "pipelines",
+  "title": "Pipelines",
+  "description": "Pipelines: visually build durable LLM workflows and run them on Pi. Adds a Pipelines page on the rail where you drag nodes (Input, LLM call, Agent, Prompt, Shell, Code, Branch, Loop, Approval, Sub-pipeline, Output), connect them (fan-out, fan-in, conditional branches), save, and run. Runs are durable: graphs and run state live in documents, and each run is a durable task that checkpoints after every batch of nodes, so a server restart resumes it. LLM nodes call a model (the session's, or one the owner allows for subagents); Agent nodes start a real Pi sub-session with its own tools and transcr",
+  "tags": [
+    "workflows",
+    "agents",
+    "llm",
+    "automation",
+    "canvas"
+  ],
+  "author": {
+    "name": "stilllostinla",
+    "github": "stilllostinla"
+  },
+  "version": "0.1.0",
+  "source": {
+    "repo": "stilllostinla/pi-pocket-pipelines",
+    "commit": "3c7b38c7026e326dcef25962f07254657e4a4cd1",
+    "path": ""
+  },
+  "files": [
+    {
+      "name": "pipelines.ts",
+      "sha256": "b2b32e839e8ec704d488d56228504c45d3c9e2319cd2281606b49d26056dcdb6",
+      "size": 108981
+    },
+    {
+      "name": "pipelines/index.js",
+      "sha256": "a356da862211352fcf7aade4f74cdef0f0e61e5f7130532249fce45aac6fb345",
+      "size": 47579
+    },
+    {
+      "name": "pipelines/style.css",
+      "sha256": "cb33f1ae9e0f543151efb88c4102ab83a8103eefb8bb3ba90ccf8f2b9dbe3937",
+      "size": 2734
+    }
+  ],
+  "pocketApi": 2,
+  "minPocket": "0.22.0",
+  "declares": {
+    "extensions": [
+      "pipelines"
+    ],
+    "tools": [
+      "pipe_list",
+      "pipe_put",
+      "pipe_get",
+      "pipe_run",
+      "pipe_status",
+      "pipe_stop"
+    ],
+    "readOnlyTools": [],
+    "hooks": [],
+    "sections": [],
+    "wraps": [],
+    "routes": [
+      "GET defs",
+      "POST defs",
+      "POST defs/delete",
+      "GET runs",
+      "GET sessions",
+      "GET meta",
+      "POST runs/stop",
+      "POST runs/:source"
+    ],
+    "client": "owner",
+    "access": "owner"
+  }
+}
