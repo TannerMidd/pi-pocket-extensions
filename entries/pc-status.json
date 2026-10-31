@@ -1,0 +1,54 @@
+{
+    "name": "pc-status",
+    "title": "PC status",
+    "description": "PC status: a page on the rail with this computer's CPU, memory, GPU, and how steady its internet link is (macOS). While a tab has the page open, the server samples every 2 seconds with fixed commands: vm_stat, sysctl, ioreg, ping -c 1 to 1.1.1.1 (one ICMP packet, no data of yours), and optionally sudo -n /usr/bin/powermetrics, which runs only if you added a passwordless sudoers line for exactly that command. It reads no files, has no other network use, and stores nothing.",
+    "tags": [
+        "system",
+        "cpu",
+        "gpu",
+        "memory",
+        "network",
+        "macos"
+    ],
+    "author": {
+        "name": "Haichiu",
+        "github": "Haichiu"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "Haichiu/pocket-pc-status",
+        "commit": "d52d52d44eb93e01bb75aeabb5573e72127edc1b"
+    },
+    "files": [
+        {
+            "name": "pc-status.ts",
+            "sha256": "dd21d41310833d2a5a6ab741a0a1885a0a156ed5ff229b82c4ca0a7378b909ca",
+            "size": 6894
+        },
+        {
+            "name": "pc-status/index.js",
+            "sha256": "93fd68575c94f980efe0106280dd5778636ec7443488577167db7e55eae2d3c6",
+            "size": 13699
+        },
+        {
+            "name": "pc-status/look.css",
+            "sha256": "e4b9a76d789f2e939adf3a340d4ac32c030051a7a75e569ff0ae32c32618eba0",
+            "size": 6545
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.14.0",
+    "declares": {
+        "extensions": [],
+        "tools": [],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [],
+        "wraps": [],
+        "routes": [
+            "GET status"
+        ],
+        "client": "owner",
+        "access": "owner"
+    }
+}
