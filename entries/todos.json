@@ -1,0 +1,64 @@
+{
+    "name": "todos",
+    "title": "Tasks",
+    "description": "Tasks: a task list for each session that Pi keeps with a todo_write tool, and that people see and change in a panel beside the conversation. It uses only this module's documents and public Pi Pocket APIs: no outside files, secrets, processes, or network services.",
+    "tags": [
+        "tasks",
+        "todo",
+        "plan",
+        "conversation",
+        "panel"
+    ],
+    "author": {
+        "name": "Pierre Marrec",
+        "github": "piromagnus"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "piromagnus/pi-pocket-todos",
+        "commit": "0c290bea2cd224959a16dcb477f9b31d04da47a4",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "todos.ts",
+            "sha256": "ca0d4adf814a46268164d2e49a7ecaf83fafdc5ea16ebc2779b2b941cb9e6bfd",
+            "size": 7124
+        },
+        {
+            "name": "todos/index.js",
+            "sha256": "b2c885cba0589f185751e068f83d9160a012a95395166c5f7071da47fd53d778",
+            "size": 9390
+        },
+        {
+            "name": "todos/style.css",
+            "sha256": "e2a58b7d547850947d278016b5036b8028ba75612f783acc680fe3bb4441f637",
+            "size": 2604
+        }
+    ],
+    "pocketApi": 2,
+    "minPocket": "0.20.0",
+    "declares": {
+        "extensions": [
+            "todos"
+        ],
+        "tools": [
+            "todo_write"
+        ],
+        "readOnlyTools": [
+            "todo_write"
+        ],
+        "hooks": [],
+        "sections": [
+            "todos"
+        ],
+        "wraps": [],
+        "routes": [
+            "GET tasks/:conversation",
+            "POST tasks/:conversation"
+        ],
+        "client": "owner",
+        "access": "owner"
+    },
+    "revoked": []
+}
