@@ -626,17 +626,17 @@
                 "name": "Okan Binli",
                 "github": "peyloride"
             },
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "repo": "peyloride/donsetch-pi-durable",
-                "commit": "26671da639b3af78e6af38d3d090a3fe95db443d",
+                "commit": "f9ed8841aca4acff8e8632e27fb05aeb5e7f2a2e",
                 "path": ""
             },
             "files": [
                 {
                     "name": "donsetch.ts",
-                    "sha256": "8ec75f12dca7c16077b73c7fd4a6490beb1cbd6a50a9dfe75599815313772cdd",
-                    "size": 49656
+                    "sha256": "8dcb1d0dc6d8b8bd530397f47743622e8cca3879633d4b8564e7297194167487",
+                    "size": 50454
                 }
             ],
             "pocketApi": 1,
