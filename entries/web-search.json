@@ -1,0 +1,105 @@
+{
+    "name": "web-search",
+    "title": "Web search",
+    "description": "Configurable web search, public-page extraction, crawl and research with tiered provider fallback and observed request usage. Needs Pi Pocket 0.20.0+ and its experimental host.fetchPublic API. Sends queries and API keys to api.tavily.com, api.exa.ai, api.search.brave.com, google.serper.dev and api.openai.com, keyless queries to html.duckduckgo.com, and requests the public URLs you give it; if installed, runs the local donsetch binary, which contacts its own engines. Keys and settings stay in this module's own data.",
+    "tags": [
+        "web",
+        "search",
+        "research",
+        "tavily",
+        "exa",
+        "crawl",
+        "fetch",
+        "donsetch",
+        "byok"
+    ],
+    "author": {
+        "name": "Pierre Marrec",
+        "github": "piromagnus"
+    },
+    "version": "1.1.0",
+    "source": {
+        "repo": "piromagnus/pi-pocket-web-search",
+        "commit": "c374a68ea6dca91b3c1221e5e5393ca3cb021b92",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "web-search.ts",
+            "sha256": "7b8114bac784572b7aa58a5a594ac233a2ed044cacc1572c005cb7c754d4435d",
+            "size": 4359
+        },
+        {
+            "name": "web-search/donsetch.ts",
+            "sha256": "a3025045558c71ed871e4112a53ce40ec0b85cc72d0f4c529ea49339a2066ca0",
+            "size": 8090
+        },
+        {
+            "name": "web-search/index.js",
+            "sha256": "8921005ef1356f8c2d6599569f8e130a7d103d8e39a0a1ec5f8dcee7a01cbfdc",
+            "size": 30293
+        },
+        {
+            "name": "web-search/look.css",
+            "sha256": "a1f8fb0625964f024fedd9b283fd07918c6aa3234e53779035ce77e7cda517e6",
+            "size": 6574
+        },
+        {
+            "name": "web-search/manager.ts",
+            "sha256": "4ec9b05eb3e495ecbc5d2377d572a7384aab4af11a7cd6118ea9ae4f862dc163",
+            "size": 49565
+        },
+        {
+            "name": "web-search/options.js",
+            "sha256": "16e2e998c0da292672f0837b99658409658f7be51cb73d1211e4c3e21e97b35c",
+            "size": 15534
+        },
+        {
+            "name": "web-search/settings.ts",
+            "sha256": "6e6855930a75614c829a92e15e2a4b73ff5ad97b4d89189799a7a4079c349a1d",
+            "size": 11674
+        },
+        {
+            "name": "web-search/storage.ts",
+            "sha256": "87134404ff1cbaa24eebd16133def5ed465da28b18ca04b80b56bbfad005bf8c",
+            "size": 3061
+        },
+        {
+            "name": "web-search/tools.ts",
+            "sha256": "b788f75845f69ce6cd4dc5e5c58ed988819039aafe5452e1c1637f2346feeba3",
+            "size": 10559
+        }
+    ],
+    "pocketApi": 2,
+    "minPocket": "0.20.0",
+    "declares": {
+        "extensions": [
+            "web-search"
+        ],
+        "tools": [
+            "web_search",
+            "fetch_content",
+            "web_crawl",
+            "web_research",
+            "web_research_status"
+        ],
+        "readOnlyTools": [
+            "web_search",
+            "fetch_content",
+            "web_crawl",
+            "web_research_status"
+        ],
+        "hooks": [],
+        "sections": [],
+        "wraps": [],
+        "routes": [
+            "GET state",
+            "POST state",
+            "POST test",
+            "POST search"
+        ],
+        "client": "owner",
+        "access": "owner"
+    },
+    "revoked": []
+}
