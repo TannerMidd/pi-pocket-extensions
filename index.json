@@ -626,17 +626,17 @@
                 "name": "Okan Binli",
                 "github": "peyloride"
             },
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "repo": "peyloride/donsetch-pi-durable",
-                "commit": "f9ed8841aca4acff8e8632e27fb05aeb5e7f2a2e",
+                "commit": "2d1c2a9f3165986042d5751a5dfc5a564d279123",
                 "path": ""
             },
             "files": [
                 {
                     "name": "donsetch.ts",
-                    "sha256": "8dcb1d0dc6d8b8bd530397f47743622e8cca3879633d4b8564e7297194167487",
-                    "size": 50454
+                    "sha256": "63b8a3b46816f72e78f876908e6356ed6f23847dcf9e9c2e8ed0b67c1572ebe2",
+                    "size": 46239
                 }
             ],
             "pocketApi": 1,
@@ -652,6 +652,7 @@
                     "web_screenshot"
                 ],
                 "readOnlyTools": [
+                    "web_fetch",
                     "web_search",
                     "web_crawl",
                     "web_screenshot"
@@ -1176,6 +1177,70 @@
                     "global usage-plans"
                 ]
             }
+        },
+        {
+            "name": "todos",
+            "title": "Tasks",
+            "description": "Tasks: a task list for each session that Pi keeps with a todo_write tool, and that people see and change in a panel beside the conversation. It uses only this module's documents and public Pi Pocket APIs: no outside files, secrets, processes, or network services.",
+            "tags": [
+                "tasks",
+                "todo",
+                "plan",
+                "conversation",
+                "panel"
+            ],
+            "author": {
+                "name": "Pierre Marrec",
+                "github": "piromagnus"
+            },
+            "version": "1.0.0",
+            "source": {
+                "repo": "piromagnus/pi-pocket-todos",
+                "commit": "0c290bea2cd224959a16dcb477f9b31d04da47a4",
+                "path": ""
+            },
+            "files": [
+                {
+                    "name": "todos.ts",
+                    "sha256": "ca0d4adf814a46268164d2e49a7ecaf83fafdc5ea16ebc2779b2b941cb9e6bfd",
+                    "size": 7124
+                },
+                {
+                    "name": "todos/index.js",
+                    "sha256": "b2c885cba0589f185751e068f83d9160a012a95395166c5f7071da47fd53d778",
+                    "size": 9390
+                },
+                {
+                    "name": "todos/style.css",
+                    "sha256": "e2a58b7d547850947d278016b5036b8028ba75612f783acc680fe3bb4441f637",
+                    "size": 2604
+                }
+            ],
+            "pocketApi": 2,
+            "minPocket": "0.20.0",
+            "declares": {
+                "extensions": [
+                    "todos"
+                ],
+                "tools": [
+                    "todo_write"
+                ],
+                "readOnlyTools": [
+                    "todo_write"
+                ],
+                "hooks": [],
+                "sections": [
+                    "todos"
+                ],
+                "wraps": [],
+                "routes": [
+                    "GET tasks/:conversation",
+                    "POST tasks/:conversation"
+                ],
+                "client": "owner",
+                "access": "owner"
+            },
+            "revoked": []
         },
         {
             "name": "usage-analyser",
