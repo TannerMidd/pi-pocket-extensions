@@ -1,0 +1,63 @@
+{
+    "name": "portfolio",
+    "title": "Portfolio",
+    "description": "Portfolio: one page with every project's status, next action, and last activity. Projects link to their latest chat; Pi updates them with portfolio_update. Owner-only; no network.",
+    "tags": [
+        "projects",
+        "status",
+        "dashboard",
+        "productivity"
+    ],
+    "author": {
+        "name": "Ryan Houlberg",
+        "github": "RyanHoulberg"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "RyanHoulberg/pi-pocket-extras",
+        "commit": "a639895b26624ca3bda1009f80f4d9083ab0534a",
+        "path": "portfolio"
+    },
+    "files": [
+        {
+            "name": "portfolio.ts",
+            "sha256": "8678952979976586970764199dee5a9e597ebcb9a98ac73c8a32baafd2e2174c",
+            "size": 12559
+        },
+        {
+            "name": "portfolio/index.js",
+            "sha256": "9f124e1c843f2b442a4e4c8bda24c6fbebec959d0306ebe1c6bc5f9fc104c0bc",
+            "size": 13025
+        },
+        {
+            "name": "portfolio/look.css",
+            "sha256": "f7b4c7163b2a18e69c920f2f0066cc5f749062a10b9c6beaeb931020c1af9a11",
+            "size": 4154
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.28.0",
+    "declares": {
+        "extensions": [
+            "portfolio"
+        ],
+        "tools": [
+            "portfolio_update",
+            "portfolio_list"
+        ],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [
+            "portfolio_status"
+        ],
+        "wraps": [],
+        "routes": [
+            "GET state",
+            "POST project",
+            "POST delete"
+        ],
+        "client": "owner",
+        "access": "owner"
+    },
+    "revoked": []
+}

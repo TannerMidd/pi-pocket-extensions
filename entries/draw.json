@@ -1,0 +1,79 @@
+{
+    "name": "draw",
+    "title": "Draw",
+    "description": "Draw: make and change pictures with a ComfyUI server, any OpenAI-compatible image API, or a local image server, and keep every result. Models and workflows come from ~/.pi-pocket/draw.json. Owner-only; no telemetry.",
+    "tags": [
+        "images",
+        "comfyui",
+        "image-generation",
+        "drawing"
+    ],
+    "author": {
+        "name": "Ryan Houlberg",
+        "github": "RyanHoulberg"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "RyanHoulberg/pi-pocket-extras",
+        "commit": "a639895b26624ca3bda1009f80f4d9083ab0534a",
+        "path": "draw"
+    },
+    "files": [
+        {
+            "name": "draw.ts",
+            "sha256": "f61481eb43e0a0c16983109d3ef7d1cfd16be12631eee0a52793fbbf919ed0e4",
+            "size": 31662
+        },
+        {
+            "name": "draw/index.js",
+            "sha256": "6e4715dca68a114f7e63d0734cc4b9fc8d7fb829c8b94fd9ef9a412bc6f50719",
+            "size": 28220
+        },
+        {
+            "name": "draw/draw.css",
+            "sha256": "e119171acb5856e1e8a1e5c848cef18141c014c1f79f4afac90fe1d74f0ba4c7",
+            "size": 5005
+        },
+        {
+            "name": "draw/SETUP.md",
+            "sha256": "53dee74c5856634462b9e58218862d2d3cb5c640e9f629c1450b778030a2a08f",
+            "size": 6200
+        },
+        {
+            "name": "draw/EXAMPLE-SERVER.md",
+            "sha256": "dcd765c96a2bf0f4ba2e35fafde3bae7b12f22e408244bfd5c73b811e730956f",
+            "size": 1682
+        },
+        {
+            "name": "draw/workflows/example.json",
+            "sha256": "21074c081ff84d60e6105e42f696115bcf7d9ec7d988b87a2cfcf0c6906e0372",
+            "size": 1098
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.14.0",
+    "declares": {
+        "extensions": [
+            "draw"
+        ],
+        "tools": [
+            "draw_picture"
+        ],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [],
+        "wraps": [],
+        "routes": [
+            "GET status",
+            "POST make",
+            "GET job",
+            "POST sync",
+            "GET saved",
+            "GET file/:name",
+            "POST star"
+        ],
+        "client": "owner",
+        "access": "owner"
+    },
+    "revoked": []
+}
