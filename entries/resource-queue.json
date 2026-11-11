@@ -1,0 +1,84 @@
+{
+    "name": "resource-queue",
+    "title": "Resource queue",
+    "description": "Monitor memory, CPU load, I/O wait, data-disk space, and top Linux processes. Pause tool calls across sessions and stagger waiting admissions with a configurable resume delay. Reads /proc/stat and per-process stat, status, and io counters; never command arguments. Uses the experimental linked-session, settings, and browser status APIs. No external network calls.",
+    "tags": [
+        "resources",
+        "monitoring",
+        "queue",
+        "linux"
+    ],
+    "author": {
+        "name": "hype-armor",
+        "github": "hype-armor"
+    },
+    "version": "1.1.1",
+    "source": {
+        "repo": "hype-armor/pi-pocket-resource-queue",
+        "commit": "7f620e77de3a10dea61b35a2fe33d42518b3743b"
+    },
+    "files": [
+        {
+            "name": "resource-queue.ts",
+            "size": 25738,
+            "sha256": "d5c5ab716594340f7063beba66fb08d09b474005361b722750dc015204d15b36"
+        },
+        {
+            "name": "resource-queue/index.js",
+            "size": 18029,
+            "sha256": "5e503747255d533a084aab9a6b9a6dcdfcaf211e4058bbee02d19229a6bbae22"
+        },
+        {
+            "name": "resource-queue/lib/processes.ts",
+            "size": 4705,
+            "sha256": "291ea41c4777ad3abffab9172b57ff3928c0c42da4ca236f851a4d3aae5a336f"
+        },
+        {
+            "name": "resource-queue/lib/resume-gate.ts",
+            "size": 1284,
+            "sha256": "291a7c76c3ebd0f5b5fed470fc7d6070517dc24847b27ffacdd0c8d18d8e9890"
+        },
+        {
+            "name": "resource-queue/processes.css",
+            "size": 827,
+            "sha256": "adcc26ecc0ece3389986f31706fb2c6c168c6e3fe2324aa375742420ec9826aa"
+        },
+        {
+            "name": "resource-queue/rail-status.css",
+            "size": 752,
+            "sha256": "f51deedf32c8e5687ba8fa9d44f4ce8eb43d371b823d958342e7e72a5d740cbd"
+        },
+        {
+            "name": "resource-queue/resource-queue.css",
+            "size": 6229,
+            "sha256": "1eb71d47962cdfda0d109c02564a6ccf14212b072d18fed1e89043db9ca75536"
+        }
+    ],
+    "pocketApi": 2,
+    "minPocket": "0.22.0",
+    "declares": {
+        "extensions": [
+            "resource-queue"
+        ],
+        "tools": [
+            "resource_queue_start"
+        ],
+        "readOnlyTools": [],
+        "hooks": [
+            "beforeTool"
+        ],
+        "sections": [
+            "resource-queue-guidance"
+        ],
+        "wraps": [],
+        "routes": [
+            "GET status"
+        ],
+        "client": "owner",
+        "access": "owner",
+        "commands": [
+            "conversation resource-queue-status",
+            "conversation resource-queue-cancel"
+        ]
+    }
+}
