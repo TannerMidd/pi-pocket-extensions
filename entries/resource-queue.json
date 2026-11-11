@@ -12,21 +12,21 @@
         "name": "hype-armor",
         "github": "hype-armor"
     },
-    "version": "1.1.0",
+    "version": "1.1.1",
     "source": {
         "repo": "hype-armor/pi-pocket-resource-queue",
-        "commit": "9cdbfdbc11a5290dd09a6ed17a484441a0113d26"
+        "commit": "7f620e77de3a10dea61b35a2fe33d42518b3743b"
     },
     "files": [
         {
             "name": "resource-queue.ts",
-            "size": 25661,
-            "sha256": "ab805da0f6a4a0056c1d50c8e40254a2060edb165b4ecd50c33513840cd6e8ad"
+            "size": 25738,
+            "sha256": "d5c5ab716594340f7063beba66fb08d09b474005361b722750dc015204d15b36"
         },
         {
             "name": "resource-queue/index.js",
-            "size": 18050,
-            "sha256": "8ae0ab5352f9b2ab1be68449927979e5621a101f1124bc44b9a7e0ef550c6427"
+            "size": 18029,
+            "sha256": "5e503747255d533a084aab9a6b9a6dcdfcaf211e4058bbee02d19229a6bbae22"
         },
         {
             "name": "resource-queue/lib/processes.ts",
