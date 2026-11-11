@@ -1,7 +1,7 @@
 {
     "name": "resource-queue",
     "title": "Resource queue",
-    "description": "Monitor memory, CPU load, I/O wait, data-disk space, and top Linux processes. Pause tool calls across sessions and stagger waiting admissions by 15 seconds. Reads /proc/stat and per-process stat, status, and io counters; never command arguments. Uses the experimental linked-session, settings, and browser status APIs. No external network calls.",
+    "description": "Monitor memory, CPU load, I/O wait, data-disk space, and top Linux processes. Pause tool calls across sessions and stagger waiting admissions with a configurable resume delay. Reads /proc/stat and per-process stat, status, and io counters; never command arguments. Uses the experimental linked-session, settings, and browser status APIs. No external network calls.",
     "tags": [
         "resources",
         "monitoring",
@@ -12,21 +12,21 @@
         "name": "hype-armor",
         "github": "hype-armor"
     },
-    "version": "1.0.0",
+    "version": "1.1.0",
     "source": {
         "repo": "hype-armor/pi-pocket-resource-queue",
-        "commit": "fb6ca6138652e90d0609942706c6a0f416915885"
+        "commit": "9cdbfdbc11a5290dd09a6ed17a484441a0113d26"
     },
     "files": [
         {
             "name": "resource-queue.ts",
-            "size": 24794,
-            "sha256": "4b182185d36b2cafe7575e539d4f4e84676d2c06d9b317ac83e68ce1111f1b28"
+            "size": 25661,
+            "sha256": "ab805da0f6a4a0056c1d50c8e40254a2060edb165b4ecd50c33513840cd6e8ad"
         },
         {
             "name": "resource-queue/index.js",
-            "size": 17869,
-            "sha256": "9cd0979867b42a60c7b4122cbdc7330551a918806fc7a20941881664aa7612a0"
+            "size": 18050,
+            "sha256": "8ae0ab5352f9b2ab1be68449927979e5621a101f1124bc44b9a7e0ef550c6427"
         },
         {
             "name": "resource-queue/lib/processes.ts",
@@ -35,8 +35,8 @@
         },
         {
             "name": "resource-queue/lib/resume-gate.ts",
-            "size": 1162,
-            "sha256": "9bdbeb4b9cea0b42e3780a608a71a30da0d149e4cac08753a31c6f0fcf56a9bb"
+            "size": 1284,
+            "sha256": "291a7c76c3ebd0f5b5fed470fc7d6070517dc24847b27ffacdd0c8d18d8e9890"
         },
         {
             "name": "resource-queue/processes.css",
@@ -55,7 +55,7 @@
         }
     ],
     "pocketApi": 2,
-    "minPocket": "0.27.0",
+    "minPocket": "0.22.0",
     "declares": {
         "extensions": [
             "resource-queue"
