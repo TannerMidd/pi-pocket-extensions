@@ -1,0 +1,126 @@
+{
+    "name": "billion-context-pi-pocket",
+    "title": "Billion context",
+    "description": "Context compression with per-chat controls and guarded exports. Owner Install/Update downloads hash-pinned billion-context-pi from registry.npmjs.org (0.9 MB; allow about 10 MB during setup; older versions stay cached). Check for updates reads public data from api.github.com and raw.githubusercontent.com and sends no user data. Program and ACP state use Pocket's data folder. Reads user/project Pi ACP config, writes Pi's ACP log, and uses ~/.cache/pi/acp-decompress for automatic restores. No npm scripts run.",
+    "tags": [
+        "context",
+        "compression",
+        "memory"
+    ],
+    "author": {
+        "name": "vitalNohj",
+        "github": "vitalNohj"
+    },
+    "version": "0.1.83",
+    "source": {
+        "repo": "vitalNohj/billion-context-pi-pocket",
+        "commit": "830fd34777fa139cd74a6b802f23492212eb1484"
+    },
+    "files": [
+        {
+            "name": "billion-context-pi-pocket.ts",
+            "sha256": "0f8846f2e1dc37305b5f2c032aa1dc60eda39b796e7853aaace0d4fd05ad6fc9",
+            "size": 33540
+        },
+        {
+            "name": "billion-context-pi-pocket/BCP-LICENSE.txt",
+            "sha256": "5760794bfa6f4acdbc51de6022e7038c7041ee6e79e71234944c69293d272695",
+            "size": 1068
+        },
+        {
+            "name": "billion-context-pi-pocket/THIRD-PARTY-NOTICES.txt",
+            "sha256": "489a21bed260b037f2a0a10ebcfbc14c82975d291903ca6563592a475aa3defb",
+            "size": 9877
+        },
+        {
+            "name": "billion-context-pi-pocket/bridge.ts",
+            "sha256": "f94242cb290e01532d898d02fd9b9cb0d72aad4885a290bd3988a5f24b76d1d7",
+            "size": 32390
+        },
+        {
+            "name": "billion-context-pi-pocket/context.mjs",
+            "sha256": "043f4e12b9126237c3b03459079aaa4c4fc7122f250c1d6c96feabf79f4825b3",
+            "size": 6201
+        },
+        {
+            "name": "billion-context-pi-pocket/index.js",
+            "sha256": "a5aae6b661494ba126bbf0fabee5023cdcb7a47dcfa214bfc4367b20d28141d8",
+            "size": 16135
+        },
+        {
+            "name": "billion-context-pi-pocket/runtime-lock.json",
+            "sha256": "8e484081d9c502fb57c7ee778bc015c960cc39326289b732fa97e0a1e032a361",
+            "size": 831
+        },
+        {
+            "name": "billion-context-pi-pocket/runtime.mjs",
+            "sha256": "6b67f126e859ce7455bd10e3549f7c290be24b633135c0a44d3956cf7e7ca4ab",
+            "size": 43499
+        },
+        {
+            "name": "billion-context-pi-pocket/style.css",
+            "sha256": "eadae3a8b635916c44c198d0ece674b3855ebd0104619c412452812d2e31ff90",
+            "size": 3550
+        },
+        {
+            "name": "billion-context-pi-pocket/tool-contract.json",
+            "sha256": "496e529ba1ef97e64db0fa477db055ee9558e21502d4c22734ba0a739eb5cf79",
+            "size": 8464
+        },
+        {
+            "name": "billion-context-pi-pocket/updates.mjs",
+            "sha256": "579abe011ad516abd26cca301572a69e48d73a7df3ac81c7b744f202e6b2cf5c",
+            "size": 7410
+        },
+        {
+            "name": "billion-context-pi-pocket/verify-runtime.mjs",
+            "sha256": "7689ffb662a275811edd135b32b6b35a49ed264d2b36ff6aa36961fd6cd5a013",
+            "size": 996
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.27.0",
+    "declares": {
+        "extensions": [
+            "billion-context-pi"
+        ],
+        "tools": [
+            "acp_cache",
+            "acp_status",
+            "compress",
+            "decompress",
+            "search_context"
+        ],
+        "readOnlyTools": [
+            "acp_cache",
+            "acp_status",
+            "compress",
+            "search_context"
+        ],
+        "hooks": [
+            "afterResponse",
+            "afterTool",
+            "beforeCompact",
+            "beforeRequest",
+            "beforeTool"
+        ],
+        "sections": [
+            "billion_context"
+        ],
+        "wraps": [],
+        "routes": [
+            "GET licenses",
+            "GET status",
+            "GET status/:source",
+            "POST runtime/install",
+            "POST runtime/repair",
+            "POST runtime/uninstall",
+            "POST session/:source",
+            "POST updates/check",
+            "POST updates/handled",
+            "POST updates/request"
+        ],
+        "client": "owner",
+        "access": "owner"
+    }
+}
