@@ -1,0 +1,47 @@
+{
+    "name": "chatgpt-images",
+    "title": "ChatGPT Images",
+    "description": "Owner-only GPT Image 2 requests via local codex/timeout and the same ChatGPT subscription; configure the text model once. Reads Pi agentDir/auth.json and CODEX_HOME auth/config/AGENTS/skills; native system policy may add files. Sends auth, quota/client metadata and visual/global-instruction prompts to chatgpt.com, auth.openai.com and service-discovered HTTPS workspace backends. Writes CODEX_HOME images/auth/cache/state/logs. No API key/paid fallback. Experimental settings/roleOf; Linux/Pocket0.28.2/Codex0.169.0. Full permissions below.",
+    "tags": [
+        "images",
+        "chatgpt",
+        "codex"
+    ],
+    "author": {
+        "name": "Meydjer Luzzoli",
+        "github": "meydjer"
+    },
+    "version": "1.2.0",
+    "source": {
+        "repo": "meydjer/pi-pocket-chatgpt-images",
+        "commit": "cd419d9a18b98a421db8bd1040b0669399dde747",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "chatgpt-images.ts",
+            "sha256": "697772a25f6de91630f21d8fe30cef5b6368dad77389512053a4a5348545b480",
+            "size": 49239
+        }
+    ],
+    "pocketApi": 2,
+    "minPocket": "0.28.2",
+    "declares": {
+        "extensions": [
+            "chatgpt-images"
+        ],
+        "tools": [
+            "chatgpt_image"
+        ],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [],
+        "wraps": [],
+        "routes": [],
+        "client": null,
+        "access": "owner",
+        "commands": [
+            "global chatgpt-images"
+        ]
+    }
+}
