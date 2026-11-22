@@ -544,6 +544,58 @@
             "minPocket": "0.20.0"
         },
         {
+            "kind": "theme",
+            "name": "codex",
+            "title": "Codex",
+            "description": "The Codex desktop app: neutral greys, system type, your messages as soft bubbles, quiet one-line tool calls, and a round message box.",
+            "tags": [
+                "dark",
+                "light",
+                "minimal",
+                "codex"
+            ],
+            "author": {
+                "name": "tanner",
+                "github": "TannerMidd"
+            },
+            "version": "1.0.0",
+            "source": {
+                "repo": "TannerMidd/pi-pocket-theme-codex",
+                "commit": "b318797c9232d15f89daf5340b20000c5f686c86",
+                "path": ""
+            },
+            "files": [
+                {
+                    "name": "codex/colors-light.toml",
+                    "sha256": "9cacc26897275cf48f60bb0d2edd567038389666fbdbecfb365f57b1e8b17282",
+                    "size": 521
+                },
+                {
+                    "name": "codex/colors.toml",
+                    "sha256": "680d893c50921a7016241f4d43d160969e83742e546f4c96a813d1377f456a28",
+                    "size": 521
+                },
+                {
+                    "name": "codex/layout.css",
+                    "sha256": "39e1eecbc9b5a609a81e6f87baf44ef145882ba93a18be4b9e56682f27a8f92c",
+                    "size": 16712
+                },
+                {
+                    "name": "codex/theme.css",
+                    "sha256": "60a1803787fb619169ce4841e63f9cbe6716604e6aefe0a2fd4c70dfdb8f1096",
+                    "size": 357
+                },
+                {
+                    "name": "codex/theme.json",
+                    "sha256": "362bf14cf2ab16500956e4bd6b3e5d8f3c5b74bb6bc3e38226ac33fa68dad241",
+                    "size": 274
+                }
+            ],
+            "themeApi": 1,
+            "minPocket": "0.20.0",
+            "revoked": []
+        },
+        {
             "name": "decision-notebook",
             "title": "Decision notebook",
             "description": "Keep conversation decisions with Pi proposals and direct owner review, acceptance, and supersession. Uses only this module's Durable documents and public Pocket APIs; no outside files, secrets, processes, or network services.",
