@@ -1,0 +1,43 @@
+{
+    "name": "prompt-nav",
+    "title": "Prompt nav",
+    "description": "Prompt navigation: buttons, keys, and an outline that jump between your own messages in a long session. It only adds to the app: no tools, routes, or stored data. It reads messages with `pocket.messages` and jumps with `pocket.reveal`, so the server checks each person's access.",
+    "tags": ["navigation", "messages", "outline", "keyboard"],
+    "author": {
+        "name": "Kedar Choudhary",
+        "github": "kedar-c-logikal"
+    },
+    "version": "1.0.0",
+    "source": {
+        "repo": "logikal-ai/pocket-prompt-nav",
+        "commit": "6d6bd16b487cbd3fae79d5a73ccf79b49cfdb47b",
+        "path": ""
+    },
+    "files": [
+        {
+            "name": "prompt-nav.ts",
+            "sha256": "938327c494098de845b7bfe3581ff5fcecbbf38d17a32c2c97f9748ac4cbb66b",
+            "size": 568
+        },
+        {
+            "name": "prompt-nav.js",
+            "sha256": "8d0551a1f370a58feeedb826efae5f60db83b1cc9ca64e7cefb010e69b845db5",
+            "size": 12814
+        }
+    ],
+    "pocketApi": 1,
+    "minPocket": "0.20.0",
+    "declares": {
+        "extensions": [],
+        "tools": [],
+        "readOnlyTools": [],
+        "hooks": [],
+        "sections": [],
+        "wraps": [],
+        "routes": [],
+        "client": "view",
+        "access": "view",
+        "commands": []
+    },
+    "revoked": []
+}
