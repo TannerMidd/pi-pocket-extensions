@@ -1,7 +1,7 @@
 {
     "name": "donsetch",
     "title": "DonSeTch for Pi Pocket",
-    "description": "DonSeTch web fetch, search, crawl, and screenshot tools for Pi Pocket, through the local donsetch MCP binary. The module starts that binary on the first tool call in each conversation with a limited environment. The binary contacts the URLs you request and the third-party search engines and sources used by web_search, including Google, Bing, Brave, DuckDuckGo, Yahoo, Mojeek, GitHub, Wikipedia, Hacker News, Semantic Scholar, arXiv, Stack Exchange, MDN, and Google News. See the donsetch documentation for the current providers.",
+    "description": "DonSeTch web fetch, search, crawl, and screenshot tools for Pi Pocket, through the local donsetch MCP binary. The module starts that binary on the first tool call in each conversation with a limited environment. The binary contacts the URLs you request and the third-party search engines and sources used by web_search, including Google, Bing, Brave, DuckDuckGo, Yahoo, Mojeek, Exa, GitHub, Wikipedia, Wikimedia Commons, Hacker News, Semantic Scholar, arXiv, Stack Exchange, MDN, and Google News. See the donsetch documentation for the current providers.",
     "tags": [
         "web",
         "search",
@@ -14,17 +14,17 @@
         "name": "Okan Binli",
         "github": "peyloride"
     },
-    "version": "1.2.1",
+    "version": "1.3.1",
     "source": {
         "repo": "peyloride/donsetch-pi-durable",
-        "commit": "666c9683885a13bf25f86ceea968ec3b7f6cad09",
+        "commit": "b6354b97b5792139a1e2998aa53441fea98ffe99",
         "path": ""
     },
     "files": [
         {
             "name": "donsetch.ts",
-            "sha256": "5f0fd80ff378028d478ce4b690b349f4934fab8b88ac1e7720f339edbc38b157",
-            "size": 46712
+            "sha256": "44fe6b2ee03043214ded30b85fcfaea81b6b45d78b8b05735d2cf5a2d44b1bbb",
+            "size": 49003
         }
     ],
     "pocketApi": 1,
